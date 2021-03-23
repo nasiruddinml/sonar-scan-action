@@ -38,6 +38,3 @@ inputs:
   scannerOptions:
     description: "Sonar Scanner options for memory optimization"
     required: false
-  coverageReports:
-    description: "Sonar Scanner code coverage report"
-    required: false
