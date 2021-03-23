@@ -1,4 +1,4 @@
-FROM newtmitch/sonar-scanner:4.0.0-alpine
+FROM newtmitch/sonar-scanner-alpine:latest
 
 RUN npm config set unsafe-perm true && \
   npm install --silent --save-dev -g typescript && \

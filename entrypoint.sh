@@ -30,4 +30,4 @@ export SONAR_SCANNER_OPTS="${INPUT_SCANNEROPTIONS}" && sonar-scanner \
 	-Dsonar.sources=. \
 	-Dsonar.exclusions=${INPUT_EXCLUSIONS} \
 	-Dsonar.sourceEncoding=UTF-8
-    -Dsonar.typescript.lcov.reportPaths=${SONAR_COVERAGE_REPORTS}
+    -Dsonar.typescript.lcov.reportPaths=${INPUT_COVERAGE_REPORTS}
